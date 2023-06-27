@@ -1,6 +1,9 @@
 # legacy-4.3.8-qBittorrent
 Bring back the look and feel of qBittorrent 4.3.X in the new 4.5.X as a theme!
 
+## How to use
+Click on releases on the right and download the .qbtheme file, then add it as a custom UI theme in qBittorrent
+
 ## Based on
 https://github.com/FoxInFlame/legacy-qBittorrent
 
