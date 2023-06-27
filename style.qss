@@ -1,0 +1,10 @@
+QTreeView::item {
+  height: 16px;
+}
+
+QListView::item,
+QTableView::item,
+CategoryFilterWidget::item,
+TagFilterWidget::item {
+  height: 20px;
+}

@@ -1,0 +1,6 @@
+{
+  "colors": {
+	"TransferList.PausedDownloading": "#FA8072",
+    "TransferList.PausedUploading": "#00008B"
+  }
+}
