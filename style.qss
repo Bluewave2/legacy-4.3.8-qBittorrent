@@ -1,5 +1,5 @@
 QTreeView::item {
-  height: 16px;
+  height: 17px;
 }
 
 QListView::item,

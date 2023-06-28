@@ -1,6 +1,16 @@
 {
   "colors": {
+	"TransferList.Downloading": "#228B22",
+	"TransferList.Uploading": "#4169E1",
+	"TransferList.StalledDownloading": "#000000",
+	"TransferList.StalledUploading": "#000000",
 	"TransferList.PausedDownloading": "#FA8072",
-    "TransferList.PausedUploading": "#00008B"
+    "TransferList.PausedUploading": "#00008B",
+	"TransferList.CheckingDownloading": "#008080",
+	"TransferList.CheckingUploading": "#008080",
+	"TransferList.CheckingResumeData": "#008080",
+	"TransferList.Moving": "#008080",
+	"TransferList.MissingFiles": "#FF0000",
+	"TransferList.Error": "#FF0000"
   }
 }
