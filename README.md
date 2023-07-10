@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://themer.dev">
+  <a href="https://github.com/qbittorrent/qBittorrent">
     <img src="https://raw.githubusercontent.com/qbittorrent/qBittorrent/488464731d1271f2ecd435beb3c956e7a1958bc5/src/icons/qbittorrent-tray.svg" width="150" alt="qBittorrent logo" />
   </a>
 </p>
