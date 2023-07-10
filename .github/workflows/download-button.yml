@@ -1,0 +1,75 @@
+# This file is derived from DevnverCoder1's work
+
+# https://github.com/DenverCoder1/readme-download-button-action
+
+
+# MIT License
+
+# Copyright (c) 2021 Jonah Lawrence
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+name: "Download Button Action"
+
+on:
+  release:
+    types:
+      - published
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Get latest release
+        id: get-latest-release
+        uses: InsonusK/get-latest-release@v1.0.1
+        with:
+          myToken: ${{ github.token }}
+          view_top: 1
+
+      - name: Readme Download Button Action
+        env:
+          GITHUB_USER: "Bluewave2"
+          REPO: "legacy-4.3.8-qBittorrent"
+          FORMAT: "qbtheme"
+          FILENAME: "legacy-4.3.8-qBittorrent-bluewave2-"
+          VERSION: "${{ steps.get-latest-release.outputs.tag_name }}"
+          COLOR: "blue"
+          BEGIN_TAG: "\n\n<!-- BEGIN LATEST DOWNLOAD BUTTON -->"
+          END_TAG: "<!-- END LATEST DOWNLOAD BUTTON -->"
+        run: |
+          echo "Updating README.md"
+          echo "GITHUB_USER: ${{ env.GITHUB_USER }}"
+          echo "REPO: ${{ env.REPO }}"
+          echo "FORMAT: ${{ env.FORMAT }}"
+          echo "VERSION: ${{ env.VERSION }}"
+          echo "COLOR: ${{ env.COLOR }}"
+          echo "BEGIN_TAG: ${{ env.BEGIN_TAG }}"
+          echo "END_TAG: ${{ env.END_TAG }}"
+          UPDATE=$(cat README.md | perl -0777 -pe 's#(${{ env.BEGIN_TAG }})(?:.|\n)*?(${{ env.END_TAG }})#${1}\n[![Download txt](https://custom-icon-badges.herokuapp.com/badge/-Download-${{ env.COLOR }}?style=for-the-badge&logo=download&logoColor=white "Download txt")](https://github.com/${{ env.GITHUB_USER }}/${{ env.REPO }}/releases/download/${{ env.VERSION }}/${{ env.FILENAME }}${{ env.VERSION }}.${{ env.FORMAT }})\n${2}#g')
+          echo "${UPDATE}" > README.md
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          message: "Bump download button version to ${{ steps.get-latest-release.outputs.tag_name }}"
+          default_author: github_actions
+          branch: main
