@@ -19,6 +19,7 @@ Bring back the look of qBittorrent 4.3.X in the new 4.5.X as a theme!
 
 
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
+[![Download txt](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download txt")](https://github.com/Bluewave2/legacy-4.3.8-qBittorrent/releases/download/v1.18/legacy-4.3.8-qBittorrent-bluewave2-v1.18.qbtheme)
 <!-- END LATEST DOWNLOAD BUTTON -->
 
 ## How to use
