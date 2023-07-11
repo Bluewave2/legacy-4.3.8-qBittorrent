@@ -24,7 +24,9 @@ Bring back the look of qBittorrent 4.3.X in the new 4.5.X as a theme!
 
 ## How to use
 1. Click the download button above (or click on releases on the right) to download the **.qbtheme** file
-2. Add it as a custom UI theme in qBittorrent
+2. Save the **.qbtheme** file to a permanent location (such as **%appdata%\qBittorrent** on Windows)
+3. Add it as a [custom UI theme](https://github.com/qbittorrent/qBittorrent/wiki/How-to-use-custom-UI-themes) in qBittorrent
+4. Restart qBittorrent and enjoy your new theme
 
 ## Based on
 https://github.com/FoxInFlame/legacy-qBittorrent
