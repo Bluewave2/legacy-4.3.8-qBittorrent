@@ -8,8 +8,9 @@
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/Bluewave2/legacy-4.3.8-qbittorrent?style=for-the-badge)
 ![GitHub all releases](https://img.shields.io/github/downloads/Bluewave2/legacy-4.3.8-qbittorrent/total?style=for-the-badge&color=blue)
 ![GitHub issues](https://img.shields.io/github/issues/Bluewave2/legacy-4.3.8-qbittorrent?style=for-the-badge&color=red)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/Bluewave2/legacy-4.3.8-qbittorrent?style=for-the-badge&color=green)
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/Bluewave2/legacy-4.3.8-qBittorrent/download-button.yml?style=for-the-badge&label=Button%20Build)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/Bluewave2/legacy-4.3.8-qBittorrent/download-button.yml?style=for-the-badge&label=Build)
+![GitHub Repo stars](https://img.shields.io/github/stars/Bluewave2/legacy-4.3.8-qBittorrent?style=for-the-badge)
+
 
 
 
