@@ -21,7 +21,7 @@ Bring back the look of qBittorrent 4.3.X in the new 4.6.X as a theme!
 
 
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Download .qbtheme](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download .qbtheme")](https://github.com/Bluewave2/legacy-4.3.8-qBittorrent/releases/download/v1.19/legacy-4.3.8-qBittorrent-bluewave2-v1.19.qbtheme)
+[![Download .qbtheme](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download .qbtheme")](https://github.com/Bluewave2/legacy-4.3.8-qBittorrent/releases/download/v1.20/legacy-4.3.8-qBittorrent-bluewave2-v1.20.qbtheme)
 <!-- END LATEST DOWNLOAD BUTTON -->
 
 ## How to use
