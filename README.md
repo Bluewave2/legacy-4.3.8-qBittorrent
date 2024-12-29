@@ -25,7 +25,7 @@ Bring back the look of qBittorrent 4.3.X in the new 5.0.X as a theme!
 <!-- END LATEST DOWNLOAD BUTTON -->
 
 ## How to use
-1. Click the download button above (or click on releases on the right) to download the **.qbtheme** file
+1. Click the download button above (or click on [releases](https://github.com/Bluewave2/legacy-4.3.8-qBittorrent/releases)) to download the **.qbtheme** file
 2. Save the **.qbtheme** file to a permanent location (such as **%appdata%\qBittorrent** on Windows)
 3. Add it as a [custom UI theme](https://github.com/qbittorrent/qBittorrent/wiki/How-to-use-custom-UI-themes) in qBittorrent
 4. Restart qBittorrent and enjoy your new theme
