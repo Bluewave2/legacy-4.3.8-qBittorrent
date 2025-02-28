@@ -35,7 +35,7 @@ https://github.com/FoxInFlame/legacy-qBittorrent
 
 ## Support the project
 - ⭐️ Star on GitHub
-- 🧰 Contribute via issues
+- 🧰 Contribute to the project
 - 😋 Spread the word!
 
 ------------------------------------------
