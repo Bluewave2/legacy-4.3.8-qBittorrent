@@ -14,7 +14,7 @@
 
 
 
-Bring back the look of qBittorrent 4.3.X in the new 5.0.X as a theme!
+Bring back the look of qBittorrent 4.3.8 in the new 5.0.0 as a theme!
 ********************************
 ![image](https://github.com/Bluewave2/legacy-4.3.8-qBittorrent/assets/83724034/bda56bc5-e652-4f5d-8ec3-64d123182060)
 ## Download
